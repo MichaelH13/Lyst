@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C7870741E0A3FB10049AE6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7870731E0A3FB10049AE6D /* AppDelegate.swift */; };
+		4C7870761E0A3FB10049AE6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7870751E0A3FB10049AE6D /* ViewController.swift */; };
+		4C7870791E0A3FB10049AE6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C7870771E0A3FB10049AE6D /* Main.storyboard */; };
+		4C78707B1E0A3FB10049AE6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C78707A1E0A3FB10049AE6D /* Assets.xcassets */; };
+		4C78707E1E0A3FB10049AE6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C78707C1E0A3FB10049AE6D /* LaunchScreen.storyboard */; };
+		4C7870891E0A3FB10049AE6D /* LystTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7870881E0A3FB10049AE6D /* LystTests.swift */; };
+		4C7870941E0A3FB10049AE6D /* LystUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7870931E0A3FB10049AE6D /* LystUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C7870851E0A3FB10049AE6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C7870681E0A3FB00049AE6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C78706F1E0A3FB00049AE6D;
+			remoteInfo = Lyst;
+		};
+		4C7870901E0A3FB10049AE6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C7870681E0A3FB00049AE6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C78706F1E0A3FB00049AE6D;
+			remoteInfo = Lyst;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C7870701E0A3FB10049AE6D /* Lyst.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lyst.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C7870731E0A3FB10049AE6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4C7870751E0A3FB10049AE6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4C7870781E0A3FB10049AE6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C78707A1E0A3FB10049AE6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C78707D1E0A3FB10049AE6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C78707F1E0A3FB10049AE6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C7870841E0A3FB10049AE6D /* LystTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LystTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C7870881E0A3FB10049AE6D /* LystTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LystTests.swift; sourceTree = "<group>"; };
+		4C78708A1E0A3FB10049AE6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C78708F1E0A3FB10049AE6D /* LystUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LystUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C7870931E0A3FB10049AE6D /* LystUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LystUITests.swift; sourceTree = "<group>"; };
+		4C7870951E0A3FB10049AE6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C78706D1E0A3FB00049AE6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C7870811E0A3FB10049AE6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C78708C1E0A3FB10049AE6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C7870671E0A3FB00049AE6D = {
+			isa = PBXGroup;
+			children = (
+				4C7870721E0A3FB10049AE6D /* Lyst */,
+				4C7870871E0A3FB10049AE6D /* LystTests */,
+				4C7870921E0A3FB10049AE6D /* LystUITests */,
+				4C7870711E0A3FB10049AE6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C7870711E0A3FB10049AE6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C7870701E0A3FB10049AE6D /* Lyst.app */,
+				4C7870841E0A3FB10049AE6D /* LystTests.xctest */,
+				4C78708F1E0A3FB10049AE6D /* LystUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C7870721E0A3FB10049AE6D /* Lyst */ = {
+			isa = PBXGroup;
+			children = (
+				4C7870731E0A3FB10049AE6D /* AppDelegate.swift */,
+				4C7870751E0A3FB10049AE6D /* ViewController.swift */,
+				4C7870771E0A3FB10049AE6D /* Main.storyboard */,
+				4C78707A1E0A3FB10049AE6D /* Assets.xcassets */,
+				4C78707C1E0A3FB10049AE6D /* LaunchScreen.storyboard */,
+				4C78707F1E0A3FB10049AE6D /* Info.plist */,
+			);
+			path = Lyst;
+			sourceTree = "<group>";
+		};
+		4C7870871E0A3FB10049AE6D /* LystTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C7870881E0A3FB10049AE6D /* LystTests.swift */,
+				4C78708A1E0A3FB10049AE6D /* Info.plist */,
+			);
+			path = LystTests;
+			sourceTree = "<group>";
+		};
+		4C7870921E0A3FB10049AE6D /* LystUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4C7870931E0A3FB10049AE6D /* LystUITests.swift */,
+				4C7870951E0A3FB10049AE6D /* Info.plist */,
+			);
+			path = LystUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C78706F1E0A3FB00049AE6D /* Lyst */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C7870981E0A3FB10049AE6D /* Build configuration list for PBXNativeTarget "Lyst" */;
+			buildPhases = (
+				4C78706C1E0A3FB00049AE6D /* Sources */,
+				4C78706D1E0A3FB00049AE6D /* Frameworks */,
+				4C78706E1E0A3FB00049AE6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lyst;
+			productName = Lyst;
+			productReference = 4C7870701E0A3FB10049AE6D /* Lyst.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C7870831E0A3FB10049AE6D /* LystTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C78709B1E0A3FB10049AE6D /* Build configuration list for PBXNativeTarget "LystTests" */;
+			buildPhases = (
+				4C7870801E0A3FB10049AE6D /* Sources */,
+				4C7870811E0A3FB10049AE6D /* Frameworks */,
+				4C7870821E0A3FB10049AE6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C7870861E0A3FB10049AE6D /* PBXTargetDependency */,
+			);
+			name = LystTests;
+			productName = LystTests;
+			productReference = 4C7870841E0A3FB10049AE6D /* LystTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4C78708E1E0A3FB10049AE6D /* LystUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C78709E1E0A3FB10049AE6D /* Build configuration list for PBXNativeTarget "LystUITests" */;
+			buildPhases = (
+				4C78708B1E0A3FB10049AE6D /* Sources */,
+				4C78708C1E0A3FB10049AE6D /* Frameworks */,
+				4C78708D1E0A3FB10049AE6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C7870911E0A3FB10049AE6D /* PBXTargetDependency */,
+			);
+			name = LystUITests;
+			productName = LystUITests;
+			productReference = 4C78708F1E0A3FB10049AE6D /* LystUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C7870681E0A3FB00049AE6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "SandBox Software";
+				TargetAttributes = {
+					4C78706F1E0A3FB00049AE6D = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					4C7870831E0A3FB10049AE6D = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4C78706F1E0A3FB00049AE6D;
+					};
+					4C78708E1E0A3FB10049AE6D = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4C78706F1E0A3FB00049AE6D;
+					};
+				};
+			};
+			buildConfigurationList = 4C78706B1E0A3FB00049AE6D /* Build configuration list for PBXProject "Lyst" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C7870671E0A3FB00049AE6D;
+			productRefGroup = 4C7870711E0A3FB10049AE6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C78706F1E0A3FB00049AE6D /* Lyst */,
+				4C7870831E0A3FB10049AE6D /* LystTests */,
+				4C78708E1E0A3FB10049AE6D /* LystUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C78706E1E0A3FB00049AE6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C78707E1E0A3FB10049AE6D /* LaunchScreen.storyboard in Resources */,
+				4C78707B1E0A3FB10049AE6D /* Assets.xcassets in Resources */,
+				4C7870791E0A3FB10049AE6D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C7870821E0A3FB10049AE6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C78708D1E0A3FB10049AE6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C78706C1E0A3FB00049AE6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C7870761E0A3FB10049AE6D /* ViewController.swift in Sources */,
+				4C7870741E0A3FB10049AE6D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C7870801E0A3FB10049AE6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C7870891E0A3FB10049AE6D /* LystTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C78708B1E0A3FB10049AE6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C7870941E0A3FB10049AE6D /* LystUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C7870861E0A3FB10049AE6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C78706F1E0A3FB00049AE6D /* Lyst */;
+			targetProxy = 4C7870851E0A3FB10049AE6D /* PBXContainerItemProxy */;
+		};
+		4C7870911E0A3FB10049AE6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C78706F1E0A3FB00049AE6D /* Lyst */;
+			targetProxy = 4C7870901E0A3FB10049AE6D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C7870771E0A3FB10049AE6D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C7870781E0A3FB10049AE6D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C78707C1E0A3FB10049AE6D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C78707D1E0A3FB10049AE6D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C7870961E0A3FB10049AE6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C7870971E0A3FB10049AE6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C7870991E0A3FB10049AE6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Lyst/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SandBoxSoftware.Lyst;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4C78709A1E0A3FB10049AE6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Lyst/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SandBoxSoftware.Lyst;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4C78709C1E0A3FB10049AE6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LystTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SandBoxSoftware.LystTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lyst.app/Lyst";
+			};
+			name = Debug;
+		};
+		4C78709D1E0A3FB10049AE6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LystTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SandBoxSoftware.LystTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lyst.app/Lyst";
+			};
+			name = Release;
+		};
+		4C78709F1E0A3FB10049AE6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = LystUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SandBoxSoftware.LystUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Lyst;
+			};
+			name = Debug;
+		};
+		4C7870A01E0A3FB10049AE6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = LystUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SandBoxSoftware.LystUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Lyst;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C78706B1E0A3FB00049AE6D /* Build configuration list for PBXProject "Lyst" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C7870961E0A3FB10049AE6D /* Debug */,
+				4C7870971E0A3FB10049AE6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C7870981E0A3FB10049AE6D /* Build configuration list for PBXNativeTarget "Lyst" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C7870991E0A3FB10049AE6D /* Debug */,
+				4C78709A1E0A3FB10049AE6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4C78709B1E0A3FB10049AE6D /* Build configuration list for PBXNativeTarget "LystTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C78709C1E0A3FB10049AE6D /* Debug */,
+				4C78709D1E0A3FB10049AE6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4C78709E1E0A3FB10049AE6D /* Build configuration list for PBXNativeTarget "LystUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C78709F1E0A3FB10049AE6D /* Debug */,
+				4C7870A01E0A3FB10049AE6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C7870681E0A3FB00049AE6D /* Project object */;
+}
